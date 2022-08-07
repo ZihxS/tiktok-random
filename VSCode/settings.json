@@ -1,0 +1,22 @@
+{
+  "security.workspace.trust.untrustedFiles" : "open",
+  "editor.fontLigatures": true,
+  "editor.fontFamily" : "Fira Code",
+  "workbench.colorTheme" : "Theme (Italic)",
+  "editor.accessibilitySupport": "off",
+  "tabnine.experimentalAutoImports" : true,
+  "explorer.confirmDragAndDrop" : false,
+  "files.exclude" : {
+    "**\/.git" : false
+  },
+  "explorer.confirmDelete" : false,
+  "files.autoSave" : "onFocusChange",
+  "php.validate.executablePath" : "",
+  "editor.cursorBlinking" : "smooth",
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1
+}
