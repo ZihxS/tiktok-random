@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMPLE BOOTSTRAP DATATABLE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+</head>
+<body>
+  <div class="m-4">
+    <table id="datatable" class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>NO</th>
+          <th>NAMA LENGKAP</th>
+          <th>EMAIL</th>
+          <th>ASAL NEGARA</th>
+          <th>KATA MUTIARA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Rosetta Cross</td>
+          <td>akoridi@tur.as</td>
+          <td>Peru</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Leroy Lewis</td>
+          <td>fo@do.jm</td>
+          <td>Iceland</td>
+          <td>Laudantium explicabo neque ab reiciendis.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Annie Luna</td>
+          <td>sowunod@moj.pf</td>
+          <td>Turks & Caicos Islands</td>
+          <td>Temporibus impedit voluptate consequuntur possimus.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Blanche Roy</td>
+          <td>henzul@bepacaj.ss</td>
+          <td>São Tomé and Príncipe</td>
+          <td>Minima, quas! Maxime, eveniet magni?</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Francisco Sanders</td>
+          <td>vacrag@dile.bd</td>
+          <td>Kazakhstan</td>
+          <td>Assumenda temporibus voluptates beatae ab.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Joshua Wolfe</td>
+          <td>ob@visjeepa.be</td>
+          <td>China</td>
+          <td>Dicta aliquid corporis tenetur odio.</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Roger Atkins</td>
+          <td>eluor@dusrupti.al</td>
+          <td>Botswana</td>
+          <td>Id porro numquam rem dolores!</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Calvin Daniels</td>
+          <td>ognat@ino.ar</td>
+          <td>Faroe Islands</td>
+          <td>Nihil itaque natus fuga a.</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Joseph Gross</td>
+          <td>silet@put.pt</td>
+          <td>Ethiopia</td>
+          <td>Vero deserunt cum deleniti voluptas.</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Myrtle Turner</td>
+          <td>iznuobe@re.fk</td>
+          <td>St. Kitts & Nevis</td>
+          <td>Repellendus, doloremque laborum! Nostrum, dolores!</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Lucille Underwood</td>
+          <td>ahenip@niheswic.lc</td>
+          <td>Ecuador</td>
+          <td>Quisquam ducimus quaerat voluptas ipsam?</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Jane Taylor</td>
+          <td>ipi@uhrije.eg</td>
+          <td>Guadeloupe</td>
+          <td>Necessitatibus doloremque molestiae debitis iure!</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Martha Chandler</td>
+          <td>bu@fektuf.vg</td>
+          <td>Iraq</td>
+          <td>Officia quo corrupti facere facilis.</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Brent Moreno</td>
+          <td>zeta@raw.sr</td>
+          <td>Costa Rica</td>
+          <td>Laboriosam blanditiis molestiae repellendus tempore.</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Hattie Brooks</td>
+          <td>ra@udafi.cc</td>
+          <td>Northern Mariana Islands</td>
+          <td>Omnis non quae aliquam quos.</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>Curtis Lambert</td>
+          <td>tur@huwkilik.mt</td>
+          <td>Jamaica</td>
+          <td>Aliquam libero labore nostrum veniam?</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Cecilia Lynch</td>
+          <td>suvhap@tu.dm</td>
+          <td>South Africa</td>
+          <td>Sit eligendi quam delectus odit.</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Mable Graham</td>
+          <td>ebu@ukebul.mk</td>
+          <td>Thailand</td>
+          <td>Illo temporibus provident rerum aut!</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Bessie Ferguson</td>
+          <td>jafu@rusasu.mk</td>
+          <td>Tunisia</td>
+          <td>Autem odit animi quam ducimus.</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Emily Garrett</td>
+          <td>rom@ce.cu</td>
+          <td>Central African Republic</td>
+          <td>Optio necessitatibus obcaecati impedit quis?</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Christina Alvarez</td>
+          <td>guvbok@gok.ax</td>
+          <td>San Marino</td>
+          <td>Totam dolor cum temporibus aliquam.</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Alberta Sandoval</td>
+          <td>gusarimo@hid.et</td>
+          <td>Vietnam</td>
+          <td>Culpa ipsum pariatur cupiditate aut?</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>Isaiah Reynolds</td>
+          <td>tufza@dezauf.it</td>
+          <td>Congo - Kinshasa</td>
+          <td>Perspiciatis rem vitae aut voluptates?</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Timothy Berry</td>
+          <td>notzujfir@nir.tw</td>
+          <td>Mali</td>
+          <td>Assumenda non quod nemo quo!</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>Millie Cummings</td>
+          <td>ze@obijit.gp</td>
+          <td>British Indian Ocean Territory</td>
+          <td>Odio, itaque maiores! Rerum, suscipit?</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>Alberta Maldonado</td>
+          <td>vojiv@irurikuf.lc</td>
+          <td>North Korea</td>
+          <td>Nemo voluptates quia reprehenderit explicabo.</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Ola Chavez</td>
+          <td>ridazzuw@ovisu.lt</td>
+          <td>Tristan da Cunha</td>
+          <td>Quas rem perferendis architecto ratione?</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>Edward Jefferson</td>
+          <td>vasu@igkora.za</td>
+          <td>Pitcairn Islands</td>
+          <td>Iure harum modi atque accusamus.</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Maud May</td>
+          <td>usluisa@jutoz.cr</td>
+          <td>U.S. Virgin Islands</td>
+          <td>Aspernatur, modi. Dolores, necessitatibus esse!</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>Grace Rodriquez</td>
+          <td>abuijwi@ul.lt</td>
+          <td>Uzbekistan</td>
+          <td>Quo impedit voluptatum corrupti in!</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>Flora Perkins</td>
+          <td>efi@zopgozu.cr</td>
+          <td>Argentina</td>
+          <td>Provident rem aliquam debitis repellat.</td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>Bill Lyons</td>
+          <td>zitozve@puawne.gov</td>
+          <td>Mozambique</td>
+          <td>Aspernatur ullam nostrum nihil ab?</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>Winnie Baker</td>
+          <td>jiom@mednek.kn</td>
+          <td>Ukraine</td>
+          <td>Commodi tenetur placeat aspernatur atque.</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>Edgar McCormick</td>
+          <td>awusegeb@rosowmu.tj</td>
+          <td>Czech Republic</td>
+          <td>Quod quaerat pariatur suscipit modi?</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Rebecca Steele</td>
+          <td>uto@ucler.il</td>
+          <td>Poland</td>
+          <td>Velit, quis possimus. Aspernatur, magnam?</td>
+        </tr>
+        <tr>
+          <td>36</td>
+          <td>Benjamin Sparks</td>
+          <td>fi@wescocur.vc</td>
+          <td>Bulgaria</td>
+          <td>Dolorum qui dicta dolor vel!</td>
+        </tr>
+        <tr>
+          <td>37</td>
+          <td>Bill Harris</td>
+          <td>dekucuho@sez.aw</td>
+          <td>Réunion</td>
+          <td>Neque laborum consequatur veritatis autem?</td>
+        </tr>
+        <tr>
+          <td>38</td>
+          <td>Lester Perry</td>
+          <td>robe@ofomi.mk</td>
+          <td>Réunion</td>
+          <td>Adipisci assumenda consequuntur nobis autem!</td>
+        </tr>
+        <tr>
+          <td>39</td>
+          <td>Ernest Wise</td>
+          <td>lasbiwcoj@ga.us</td>
+          <td>Croatia</td>
+          <td>Eum id fugit aperiam earum.</td>
+        </tr>
+        <tr>
+          <td>40</td>
+          <td>Johanna Vega</td>
+          <td>bifagwic@avado.sl</td>
+          <td>Lithuania</td>
+          <td>Sequi vero autem numquam ab!</td>
+        </tr>
+        <tr>
+          <td>41</td>
+          <td>Cody Banks</td>
+          <td>wesifu@naek.yt</td>
+          <td>Ascension Island</td>
+          <td>Veniam, quas sunt. Veniam, mollitia?</td>
+        </tr>
+        <tr>
+          <td>42</td>
+          <td>Matthew Olson</td>
+          <td>buzacdu@upu.vg</td>
+          <td>Senegal</td>
+          <td>Beatae adipisci rem exercitationem obcaecati!</td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td>Mark Powell</td>
+          <td>wibe@doju.cn</td>
+          <td>Rwanda</td>
+          <td>Id praesentium assumenda consectetur neque!</td>
+        </tr>
+        <tr>
+          <td>44</td>
+          <td>Marcus Diaz</td>
+          <td>ruduw@go.ky</td>
+          <td>Finland</td>
+          <td>Iste corrupti mollitia voluptates id!</td>
+        </tr>
+        <tr>
+          <td>45</td>
+          <td>Noah Ross</td>
+          <td>as@lor.sk</td>
+          <td>Ireland</td>
+          <td>Id ratione incidunt laboriosam cum!</td>
+        </tr>
+        <tr>
+          <td>46</td>
+          <td>Josie Duncan</td>
+          <td>hudwotgoj@totivig.cy</td>
+          <td>Tanzania</td>
+          <td>Veniam impedit delectus dolor asperiores.</td>
+        </tr>
+        <tr>
+          <td>47</td>
+          <td>Ronnie Tate</td>
+          <td>hud@carmiwi.th</td>
+          <td>Portugal</td>
+          <td>Fugiat velit ipsa soluta? Sed.</td>
+        </tr>
+        <tr>
+          <td>48</td>
+          <td>Bernice Caldwell</td>
+          <td>otbibe@cabirpiv.so</td>
+          <td>Hungary</td>
+          <td>Repellendus ad eaque autem quo?</td>
+        </tr>
+        <tr>
+          <td>49</td>
+          <td>Barbara Alvarado</td>
+          <td>aslufse@gagjuabi.my</td>
+          <td>Israel</td>
+          <td>Error unde cupiditate quidem eius.</td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td>Matilda Rogers</td>
+          <td>giv@peseh.sx</td>
+          <td>Mexico</td>
+          <td>Fugiat nam incidunt esse commodi?</td>
+        </tr>
+        <tr>
+          <td>51</td>
+          <td>Rosetta Lawson</td>
+          <td>gacuj@colbewofo.tj</td>
+          <td>Montenegro</td>
+          <td>Sapiente, officia! Ipsa, soluta nobis!</td>
+        </tr>
+        <tr>
+          <td>52</td>
+          <td>Isaac Baker</td>
+          <td>ewabitcip@rujazom.kg</td>
+          <td>Papua New Guinea</td>
+          <td>Laudantium mollitia dolor consectetur fuga!</td>
+        </tr>
+        <tr>
+          <td>53</td>
+          <td>Alice Briggs</td>
+          <td>beusve@we.pk</td>
+          <td>Monaco</td>
+          <td>Asperiores laboriosam reiciendis molestias officiis.</td>
+        </tr>
+        <tr>
+          <td>54</td>
+          <td>Jeremy Richards</td>
+          <td>wizcez@ji.pe</td>
+          <td>Guatemala</td>
+          <td>Laudantium debitis amet enim similique?</td>
+        </tr>
+        <tr>
+          <td>55</td>
+          <td>Carlos Singleton</td>
+          <td>ov@we.id</td>
+          <td>Senegal</td>
+          <td>Magnam nihil voluptate nostrum vitae.</td>
+        </tr>
+        <tr>
+          <td>56</td>
+          <td>Elsie Duncan</td>
+          <td>veuso@hopeb.zm</td>
+          <td>Liechtenstein</td>
+          <td>Ipsum eos omnis fugiat cupiditate?</td>
+        </tr>
+        <tr>
+          <td>57</td>
+          <td>Lucy Ortega</td>
+          <td>momafe@wavinawo.in</td>
+          <td>Ascension Island</td>
+          <td>Vero exercitationem numquam iste. Et!</td>
+        </tr>
+        <tr>
+          <td>58</td>
+          <td>Lillie Ingram</td>
+          <td>cuzzazev@agezet.tj</td>
+          <td>Nepal</td>
+          <td>A illo corrupti iste. Minima!</td>
+        </tr>
+        <tr>
+          <td>59</td>
+          <td>Cora McCoy</td>
+          <td>coulu@libetrok.tp</td>
+          <td>Honduras</td>
+          <td>Voluptate temporibus aut totam velit.</td>
+        </tr>
+        <tr>
+          <td>60</td>
+          <td>Mabelle Vega</td>
+          <td>deiz@ov.hm</td>
+          <td>Vatican City</td>
+          <td>Inventore explicabo voluptatum reprehenderit fugit!</td>
+        </tr>
+        <tr>
+          <td>61</td>
+          <td>Isabella Sanders</td>
+          <td>vazul@bekmirjev.ai</td>
+          <td>St. Lucia</td>
+          <td>Delectus ullam asperiores vel perspiciatis.</td>
+        </tr>
+        <tr>
+          <td>62</td>
+          <td>Bruce Jensen</td>
+          <td>fat@etavasoj.de</td>
+          <td>Ireland</td>
+          <td>Ipsa repellat animi amet laudantium!</td>
+        </tr>
+        <tr>
+          <td>63</td>
+          <td>Phoebe Holland</td>
+          <td>izeduk@hel.ne</td>
+          <td>Sudan</td>
+          <td>At debitis hic saepe id.</td>
+        </tr>
+        <tr>
+          <td>64</td>
+          <td>Glen Poole</td>
+          <td>kupeduje@ke.sj</td>
+          <td>Nepal</td>
+          <td>Atque praesentium quasi perspiciatis fugit?</td>
+        </tr>
+        <tr>
+          <td>65</td>
+          <td>John Perez</td>
+          <td>cefufob@jofkis.kr</td>
+          <td>Northern Mariana Islands</td>
+          <td>Nihil alias quibusdam minus quos?</td>
+        </tr>
+        <tr>
+          <td>66</td>
+          <td>Kate Reid</td>
+          <td>jumheli@zaz.kr</td>
+          <td>Turkmenistan</td>
+          <td>Molestiae autem minima voluptates officia.</td>
+        </tr>
+        <tr>
+          <td>67</td>
+          <td>Johanna Reeves</td>
+          <td>gokwig@cipor.hu</td>
+          <td>Guam</td>
+          <td>Enim eius sint repellendus facilis.</td>
+        </tr>
+        <tr>
+          <td>68</td>
+          <td>Olivia Reeves</td>
+          <td>ce@tu.re</td>
+          <td>Taiwan</td>
+          <td>Harum earum voluptates repellat eligendi?</td>
+        </tr>
+        <tr>
+          <td>69</td>
+          <td>Amelia Bryan</td>
+          <td>sim@muve.mk</td>
+          <td>Uruguay</td>
+          <td>Quidem eius nobis amet non?</td>
+        </tr>
+        <tr>
+          <td>70</td>
+          <td>Catherine Lowe</td>
+          <td>meemsec@wop.ir</td>
+          <td>Spain</td>
+          <td>Impedit suscipit molestias iure itaque.</td>
+        </tr>
+        <tr>
+          <td>71</td>
+          <td>Cordelia Howard</td>
+          <td>fahusti@deat.mg</td>
+          <td>St. Vincent & Grenadines</td>
+          <td>Hic voluptates libero obcaecati inventore!</td>
+        </tr>
+        <tr>
+          <td>72</td>
+          <td>Lulu Quinn</td>
+          <td>hoari@baseh.vi</td>
+          <td>Svalbard & Jan Mayen</td>
+          <td>Blanditiis dolor quisquam optio sed!</td>
+        </tr>
+        <tr>
+          <td>73</td>
+          <td>Gilbert Buchanan</td>
+          <td>wa@lif.im</td>
+          <td>India</td>
+          <td>Aliquid dolorum sed incidunt veniam.</td>
+        </tr>
+        <tr>
+          <td>74</td>
+          <td>Hester Clarke</td>
+          <td>huwoduw@luhu.gov</td>
+          <td>Åland Islands</td>
+          <td>Maiores assumenda iusto ratione repellendus.</td>
+        </tr>
+        <tr>
+          <td>75</td>
+          <td>Michael Summers</td>
+          <td>tupsi@okzi.ml</td>
+          <td>Italy</td>
+          <td>Tenetur doloribus repellat praesentium illo.</td>
+        </tr>
+        <tr>
+          <td>76</td>
+          <td>Claudia Johnson</td>
+          <td>piseca@emgo.io</td>
+          <td>Angola</td>
+          <td>Qui minus voluptatum doloremque nulla?</td>
+        </tr>
+        <tr>
+          <td>77</td>
+          <td>Jeffery Benson</td>
+          <td>lelbemep@ocoet.yt</td>
+          <td>Togo</td>
+          <td>Quo obcaecati praesentium ab cumque!</td>
+        </tr>
+        <tr>
+          <td>78</td>
+          <td>Jackson Cunningham</td>
+          <td>opkilcen@utupu.pw</td>
+          <td>Antarctica</td>
+          <td>Voluptate cum eum iusto fugiat.</td>
+        </tr>
+        <tr>
+          <td>79</td>
+          <td>Claudia Gibson</td>
+          <td>vos@tu.co.uk</td>
+          <td>Paraguay</td>
+          <td>Nulla possimus error nemo aspernatur!</td>
+        </tr>
+        <tr>
+          <td>80</td>
+          <td>Bettie Craig</td>
+          <td>nuzruvoz@ce.za</td>
+          <td>American Samoa</td>
+          <td>Ipsam maxime mollitia sit et.</td>
+        </tr>
+        <tr>
+          <td>81</td>
+          <td>Caroline Rowe</td>
+          <td>gepigja@bihura.as</td>
+          <td>Micronesia</td>
+          <td>Unde natus recusandae minima beatae!</td>
+        </tr>
+        <tr>
+          <td>82</td>
+          <td>Tony Ford</td>
+          <td>ojiucdo@sugagdab.ie</td>
+          <td>U.S. Outlying Islands</td>
+          <td>Similique sapiente corrupti aut? Officia.</td>
+        </tr>
+        <tr>
+          <td>83</td>
+          <td>Alice Norton</td>
+          <td>sudot@zef.ge</td>
+          <td>Cook Islands</td>
+          <td>A voluptatem totam quos eum.</td>
+        </tr>
+        <tr>
+          <td>84</td>
+          <td>Kate Jacobs</td>
+          <td>wafenes@wocibiva.ci</td>
+          <td>French Guiana</td>
+          <td>Reiciendis ipsum voluptatum odit consequatur.</td>
+        </tr>
+        <tr>
+          <td>85</td>
+          <td>Ida Sharp</td>
+          <td>sulgasec@wotje.mw</td>
+          <td>Lesotho</td>
+          <td>Fugit tenetur assumenda velit ullam.</td>
+        </tr>
+        <tr>
+          <td>86</td>
+          <td>Roger Riley</td>
+          <td>lod@juf.jo</td>
+          <td>El Salvador</td>
+          <td>Possimus eum nostrum deleniti eligendi.</td>
+        </tr>
+        <tr>
+          <td>87</td>
+          <td>Josephine Curry</td>
+          <td>elsumel@la.se</td>
+          <td>Luxembourg</td>
+          <td>Praesentium sapiente voluptatum voluptate debitis!</td>
+        </tr>
+        <tr>
+          <td>88</td>
+          <td>Lulu Payne</td>
+          <td>sa@rotcubkud.dk</td>
+          <td>Macedonia</td>
+          <td>Beatae, cupiditate error! Minima, optio.</td>
+        </tr>
+        <tr>
+          <td>89</td>
+          <td>Evelyn Gregory</td>
+          <td>pazocfug@loni.hu</td>
+          <td>Brazil</td>
+          <td>Ex molestias vel est doloremque.</td>
+        </tr>
+        <tr>
+          <td>90</td>
+          <td>Ann Nash</td>
+          <td>ilkih@ud.rw</td>
+          <td>British Indian Ocean Territory</td>
+          <td>Modi dignissimos cum ipsam ab!</td>
+        </tr>
+        <tr>
+          <td>91</td>
+          <td>Elva Palmer</td>
+          <td>lab@rig.nl</td>
+          <td>South Sudan</td>
+          <td>Sapiente aliquam accusantium ducimus aliquid.</td>
+        </tr>
+        <tr>
+          <td>92</td>
+          <td>Walter Ballard</td>
+          <td>vuh@hu.net</td>
+          <td>Macedonia</td>
+          <td>Expedita modi tempore eveniet aliquid.</td>
+        </tr>
+        <tr>
+          <td>93</td>
+          <td>Dylan Tucker</td>
+          <td>razgude@ofpiti.bq</td>
+          <td>Belgium</td>
+          <td>Nostrum porro sed ut dolor?</td>
+        </tr>
+        <tr>
+          <td>94</td>
+          <td>Nannie Cross</td>
+          <td>la@lalugri.it</td>
+          <td>Ethiopia</td>
+          <td>Expedita, quae! Deserunt, minus rerum!</td>
+        </tr>
+        <tr>
+          <td>95</td>
+          <td>Floyd White</td>
+          <td>pisawdi@peijlir.ac</td>
+          <td>Maldives</td>
+          <td>Vel explicabo sunt repellendus. Quo?</td>
+        </tr>
+        <tr>
+          <td>96</td>
+          <td>Calvin Daniel</td>
+          <td>nojirih@gi.na</td>
+          <td>Malaysia</td>
+          <td>Numquam reiciendis eveniet facere officiis.</td>
+        </tr>
+        <tr>
+          <td>97</td>
+          <td>Jacob Garcia</td>
+          <td>nezu@nig.pn</td>
+          <td>Mali</td>
+          <td>Delectus ipsam cumque aliquid vero.</td>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>Annie Haynes</td>
+          <td>ninrovuj@uhudiko.iq</td>
+          <td>Antarctica</td>
+          <td>Perspiciatis numquam fugiat est doloribus?</td>
+        </tr>
+        <tr>
+          <td>99</td>
+          <td>Matilda Scott</td>
+          <td>nehih@rejzat.ph</td>
+          <td>Samoa</td>
+          <td>Natus autem ab totam quam.</td>
+        </tr>
+        <tr>
+          <td>100</td>
+          <td>Harry Nichols</td>
+          <td>enne@enufijdot.ma</td>
+          <td>Portugal</td>
+          <td>At qui tempora itaque a.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+  <script>$(() => $('#datatable').DataTable())</script>
+</body>
+</html>
