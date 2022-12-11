@@ -1,0 +1,13 @@
+body{
+  background-color: #F6CFCA;
+}
+
+#canvas{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+[type="range"] {
+  display: none;
+}
